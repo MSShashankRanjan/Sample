@@ -15,8 +15,6 @@ To change the code to use all async & await / Promises, you would need to use Pr
 
 Script - "index.js"
 
-<H1>*********************************************************************************************************************</H1>
-
 ```
 const KeyVault = require('azure-keyvault');
 const AuthenticationContext = require('adal-node').AuthenticationContext;
