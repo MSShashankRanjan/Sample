@@ -17,6 +17,7 @@ Script - "index.js"
 
 <H1>*********************************************************************************************************************</H1>
 
+```
 const KeyVault = require('azure-keyvault');
 const AuthenticationContext = require('adal-node').AuthenticationContext;
 
@@ -67,4 +68,4 @@ module.exports = function (context, req) {
         context.done(); // see docs here: https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-node#contextdone-method
     });
 };
-
+```
