@@ -7,7 +7,7 @@ However with the JavaScript code we tend to use "callback" and "async" together.
 
 <H2>Note:- Declaration of callbacks and the async function should be avoided. </H2>
 
-To have your execute as expected, we recommend that you change the code to use all callbacks or all async & await / Promises and not mix the two (this is a JavaScript quirk, with the added confusion of “async” being promise-specific being introduced in Node.js v8+).
+To have your code execute as expected, we recommend that you change the code to use all callbacks or all async & await / Promises and not mix the two (this is a JavaScript quirk, with the added confusion of “async” being promise-specific being introduced in Node.js v8+).
  
 To change the code to use all callbacks, you would need to remove the “async” function declaration and use the context.done callback. Your code should be the exact same code as it was in V1.
  
